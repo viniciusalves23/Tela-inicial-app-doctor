@@ -1,0 +1,99 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box{
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    width: 930px;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+/* Start Landing Page */
+
+.landing-page {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    width: 900px;
+}
+
+.landing-page .header-area {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 280px;
+}
+
+.landing-page .header-area .logo img{
+    width: 500px;
+    height: 300px;
+}
+
+
+.landing-page .info {
+    margin-bottom: 20PX;
+}
+
+
+.landing-page .info h1 {
+    font-size: 44px;
+    color: #2351cf
+}
+
+.landing-page .info p {
+    margin-top: 15px;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #2351cf;
+}
+
+.landing-page .info button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #2351cf;
+}
+
+.landing-page .image {
+    width: 50%;
+    float: right;
+    margin-top: 35px;
+}
+
+.landing-page .image img {
+    max-width: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* End Landing Page */
